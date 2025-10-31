@@ -1,0 +1,42 @@
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+
+.idea
+.venv
+.pytest_cache
+.gitignore
+.api_hh
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files
+data/tokens/
+data/raw/
+data/scraper_state.json
+logs/
+
+# Large CSV files (exceed GitHub 100MB limit)
+src/EDA/hh_vacancies.csv
+src/EDA/merged_data.csv
+src/EDA/gorodrabot_listings_v3.csv
+src/EDA/gorodrabot_vacancies_full.csv
+src/EDA/hh_vacancies_old_20251106_014345.csv
+src/EDA/linkedin_vacancies.csv
+
+# OS files
+.DS_Store
+logs
+
+# Scripts
+create_commit_history.py
+generate_commits.py
