@@ -262,11 +262,6 @@ GP-python/
 - Supports persistent browser context
 - Automatic skill extraction from descriptions
 
-### Rabota.ru Scraper
-- Playwright for automation
-- User-Agent rotation to avoid blocks
-- Skill extraction via regular expressions
-
 ### GorodRabot Scraper
 - Selenium WebDriver for automation
 - Support for multiple cities
